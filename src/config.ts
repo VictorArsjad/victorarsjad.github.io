@@ -6,86 +6,52 @@ export const siteConfig = {
   social: {
     email: "victorarsjad@gmail.com",
     linkedin: "https://linkedin.com/in/victorarsjad",
-    // twitter: "https://x.com/rfitzio",
     github: "https://github.com/victorarsjad",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
-  projects: [
-    {
-      name: "AI Dev Roundup Newsletter",
-      description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-  ],
+    "Software Engineer with 6+ years of professional experience in software development, proficient in using technologies such as Go, Kafka, Postgres. Skilled in leading initiatives, refining workflows, and resolving critical issues efficiently. Possesses strong track record of deliveries, collaboration, and adherence to best practices.",
+  skills: ["Go", "Kubernetes"],
   experience: [
     {
-      company: "Tech Company",
+      company: "Gojek",
       title: "Senior Software Engineer",
       dateRange: "Jan 2022 - Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Led technical initiatives that reduced merchant onboarding processing time by 20%, improving conversion rates for over 100k merchants",
+        "Led system architecture redesign initiatives, including ADR documentation and cross-team technical alignment",
+        "Owned and maintained critical data storage service supporting 330M+ daily transactions across GoTo's ecosystem",
+        "Led incident response team, maintaining 99.99% service uptime for merchant-critical systems"
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Moka",
+      title: "Software Engineer",
+      dateRange: "Dec 2019 - Oct 2020",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Developed a robust, scalable backend service using Spring Boot and Kotlin to power Moka merchant lending platform",
+        "Integrated backend capital service with internal reporting and payment service, and third-party peer-to-peer lending providers, ensuring seamless end-to-end functionality",
+        "Collaborated closely with cross-functional teams, including Product, UI/UX, and QA, to gather requirements, prioritize features, and ensure timely delivery",
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "eComindo",
+      title: "Associate Developer",
+      dateRange: "Aug 2018 - Dec 2019",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Responsible for integration of client-side services with Allianz internal components",
+        "Develop web application using Angular",
+        "Develop RESTful API service using Java with Spring Framework",
       ],
     },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
+      school: "President University",
+      degree: "Bachelor of Science in Information Technology",
       dateRange: "2014 - 2018",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Active Student - In charge over 20+ events and activities, with a wide variety of events",
+        "Head of Design in Buddhist Club",
       ],
     },
   ],
