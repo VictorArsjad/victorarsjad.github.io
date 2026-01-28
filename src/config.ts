@@ -10,7 +10,7 @@ export const siteConfig = {
   },
   aboutMe:
     "Software Engineer with 6+ years of professional experience in software development, proficient in using technologies such as Go, Kafka, Postgres. Skilled in leading initiatives, refining workflows, and resolving critical issues efficiently. Possesses strong track record of deliveries, collaboration, and adherence to best practices.",
-  skills: ["Go", "Kubernetes"],
+  skills: ["Go", "Kafka", "Postgres", "Kubernetes"],
   experience: [
     {
       company: "Gojek",
